@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Halaman Dashboard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../assets/style.css">
+    </head>
+
+    <body>
+        <header>
+            Aplikasi Pegawai
+        </header>
+        <div class="container">
+            <aside>
+                <ul class="menu">
+                    <li> <a href="../Dashboard/dashboard.html" class="aktif">Halaman Dashboard</a></li>
+                    <li> <a href="../Dashboard/tabel.html" class="aktif">Data Pegawai</a></li>
+                    <li> <a href="dashboard.html" class="aktif">Data Jabatan</a></li>
+                    <li> <a href="../Dashboard/login.html">Keluar</a></li>
+                </ul>
+            </aside>
+            <section class="main">
+                <h2 class="judul">Data Pegawai</h2>
+                <a class="tombol" href="../Dashboard/form.html">Tambah</a>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Foto</th>
+                            <th>Nama</th>
+                            <th>Jenis Kelamin</th>
+                            <th>Tanggal Lahir</th>
+                            <th>Jabatan</th>
+                            <th>Keterangan</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><img src="assets/images/WIN_20220301_11_12_38_Pro-removebg-preview.png" width="100"></td>
+                            <td>Rifki Ardian</td>
+                            <td>L</td>
+                            <td>7 Oktober 2002</td>
+                            <td>Owner</td>
+                            <td>-</td>
+                            <td>
+                                <a class="tombol edit" href="#"> Edit </a>
+                                <a class="tombol hapus" href="#"> Hapus </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        <footer>
+            Copyright &copy; Rifki Ardian
+        </footer>
+    </body>
+</html>
